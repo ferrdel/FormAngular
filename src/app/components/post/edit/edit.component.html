@@ -1,4 +1,4 @@
-<form [formGroup]="postForm" (ngSubmit)="onSubmit()" >
+<form [formGroup]="postForm" (ngSubmit)="onSubmit()" class="formEdit">
     <label for="title">Title: </label>
     <input type="text" id="title" name="title" formControlName="title"/>
     <div *ngIf="postForm.controls['title']?.invalid && postForm.controls['title']?.touched">

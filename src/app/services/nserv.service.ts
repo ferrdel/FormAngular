@@ -31,4 +31,9 @@ export class NservService {
         }
       });
   }
+
+  getAll(): Observable<any>{
+    return this.http.get<any[]>(this.apiurl);
+  }
+
 }
