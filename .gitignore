@@ -450,7 +450,6 @@ dist/
 out-tsc/
 
 # Archivos de configuración de TypeScript
-tsconfig*.json
 *.tsbuildinfo
 
 # IDEs y Editores
@@ -478,10 +477,3 @@ Thumbs.db
 # Archivos de testing
 coverage/
 karma.conf.js
-test.ts
-
-# Ambiente y variables sensibles
-.env
-.env.*.local
-
-.editorconfig
